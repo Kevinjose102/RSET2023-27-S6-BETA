@@ -1,0 +1,39 @@
+# === OS / Editor junk ===
+.DS_Store
+*.log
+*.swp
+.atom/
+.history/
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# === Flutter / Dart ===
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# === Android ===
+android/local.properties
+android/app/debug
+android/app/profile
+android/app/release
+
+# === iOS ===
+**/ios/Flutter/.last_build_id
+
+# === Misc ===
+*.class
+*.pyc
+
+# Disable unwanted Flutter platforms
+/linux/
+/macos/
+/windows/
+/web/
